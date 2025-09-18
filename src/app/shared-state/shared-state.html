@@ -1,0 +1,9 @@
+<div>
+    <h2>Shared State Counter</h2>
+    <div class="d-flex">
+    <button type="button" class="btn btn-info" (click)="decrement()">-</button>
+    <button type="button" class="btn btn-danger disabled">{{counter$ | async}}</button>
+    <button type="button" class="btn btn-info" (click)="increment()">+</button>
+    
+    </div>
+</div>
